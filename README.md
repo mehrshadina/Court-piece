@@ -27,16 +27,16 @@ To compile the Court-piece game, follow these steps:
 
 1. Clone the repository:
 ```
-   git clone https://github.com/mehrshadina/Court-piece
-   cd court-piece-game-c
+git clone https://github.com/mehrshadina/Court-piece
+cd court-piece-game-c
 ```
 2. Compile the source code:
 ```
-    gcc -o court_piece_game main.c game.c deck.c player.c -lm
+gcc -o court_piece_game main.c game.c deck.c player.c -lm
 ```
 3. Run the compiled executable:
 ```
-    ./court_piece_game
+./court_piece_game
 ```
 ## Game Rules
 
