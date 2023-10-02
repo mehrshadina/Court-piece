@@ -26,16 +26,16 @@ This project provides a console-based implementation of the Court-piece card gam
 To compile the Court-piece game, follow these steps:
 
 1. Clone the repository:
-bash```
+```
    git clone https://github.com/mehrshadina/Court-piece
    cd court-piece-game-c
 ```
 2. Compile the source code:
-bash```
+```
     gcc -o court_piece_game main.c game.c deck.c player.c -lm
 ```
 3. Run the compiled executable:
-bash```
+```
     ./court_piece_game
 ```
 ## Game Rules
