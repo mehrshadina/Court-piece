@@ -26,18 +26,18 @@ This project provides a console-based implementation of the Court-piece card gam
 To compile the Court-piece game, follow these steps:
 
 1. Clone the repository:
-
-   git clone <repository_url>
+bash```
+   git clone https://github.com/mehrshadina/Court-piece
    cd court-piece-game-c
-
+```
 2. Compile the source code:
-
+bash```
     gcc -o court_piece_game main.c game.c deck.c player.c -lm
-
+```
 3. Run the compiled executable:
-
+bash```
     ./court_piece_game
-    
+```
 ## Game Rules
 
 Court-piece is a trick-taking game played with a standard deck of cards. Here are the basic rules of the game:
